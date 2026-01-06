@@ -13,6 +13,7 @@ import Generate from "./sections/generate";
 import MyGeneration from "./sections/myGeneration";
 import YtPreview from "./sections/ytPreview";
 import Login from "./components/Login"
+import ContactUs from './sections/ContactUs'
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
         <Route path="/generate" element={<Generate/>} />
         <Route path="/preview" element={<YtPreview/>} />
         <Route path="/login" element={<Login/>} />
+        <Route path="/contactus" element={<ContactUs/>} />
       </Routes>
 
       <Footer />
