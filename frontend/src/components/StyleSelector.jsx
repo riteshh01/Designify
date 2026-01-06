@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { thumbnailStyles } from "../../public/assets/assets";
+import { thumbnailStyles } from "../assets/assets.js";
 import { SquareIcon, SparkleIcon, CpuIcon, ImageIcon, PenToolIcon, ChevronDownIcon, Square } from "lucide-react";
 
 

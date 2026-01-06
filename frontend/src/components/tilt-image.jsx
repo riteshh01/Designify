@@ -52,7 +52,7 @@ export default function TiltedImage({ rotateAmplitude = 3, }) {
             transition={{ type: "spring", stiffness: 320, damping: 70, mass: 1 }}
         >
             <motion.div className="relative [transform-style:preserve-3d] w-full max-w-4xl" style={{ rotateX, rotateY }} >
-                <img src="../../public/assets/hero_image.png"
+                <img src="../../public/hero_image.png"
                     className="w-full rounded-[15px] border-2 border-indigo-900 will-change-transform [transform:translateZ(0)]"
                     alt="hero section showcase"
                 />

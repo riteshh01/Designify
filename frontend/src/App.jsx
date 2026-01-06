@@ -35,7 +35,6 @@ export default function App() {
           }
         />
 
-        <Route path="/generate" element={<Generate/>} />
         <Route path="/generate/:id" element={<Generate/>} />
         <Route path="/my-generating" element={<MyGeneration/>} />
         <Route path="/generate" element={<Generate/>} />

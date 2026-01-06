@@ -12,7 +12,7 @@ export default function Footer() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
                 <div className="sm:col-span-2 lg:col-span-1">
                     <Link to='/' >
-                    <img className="h-12 w-auto" src="/assets/logo.png" width={138} height={36} alt="logo" />
+                    <img className="h-12 w-auto" src="../../public/logo.png" width={138} height={36} alt="logo" />
                     </Link>
                            
                     <p className="text-sm/7 mt-6">Designify is an AI-powered platform that helps creators design high-quality YouTube thumbnails effortlessly</p>

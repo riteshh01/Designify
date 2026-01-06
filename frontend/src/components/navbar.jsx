@@ -34,14 +34,14 @@ export default function Navbar() {
             >
 
                 <Link to={'/'}>
-                    <img className="h-12 w-auto" src="/assets/logo.png" width={138} height={36} alt="logo" />
+                    <img className="h-12 w-auto" src="../../public/logo.png" width={138} height={36} alt="logo" />
                 </Link>
 
                 <div className="hidden lg:flex items-center gap-8 transition duration-500">
 
                     <Link to="/" className="hover:text-slate-300 transition" >Home</Link>
                     <Link to="/generate" className="hover:text-slate-300 transition" >Generate</Link>
-                    <Link to="#" className="hover:text-slate-300 transition" >About</Link>
+                    <Link to="/my-generating" className="hover:text-slate-300 transition" >My Generations</Link>
                     <Link to="#" className="hover:text-slate-300 transition" >Contact Us</Link>                    
                 </div>
 

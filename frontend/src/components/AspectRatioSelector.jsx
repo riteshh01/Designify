@@ -1,6 +1,6 @@
 import React from "react";
 import { RectangleHorizontal, RectangleVertical, Square } from "lucide-react";
-import { aspectRatios } from "../../public/assets/assets";
+import { aspectRatios } from "../assets/assets";
 
 const AspectRatioSelector = ({ value, onChange }) => {
   const iconMap = {

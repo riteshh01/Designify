@@ -11,19 +11,19 @@ export default function OurLatestCreation() {
         {
             title: "Travel Vlogging",
             description: "Capturing stories, cultures, and moments from around the world.",
-            image: "../../public/assets/thumb1.png",
+            image: "../../public/thumb1.png",
             align: "object-center",
         },
         {
             title: "Indian Food Vlogs",
             description: "Exploring India’s rich flavors, traditions, and street food stories.",
-            image: "../../public/assets/thumb2.png",
+            image: "../../public/thumb2.png",
             align: "object-right",
         },
         {
             title: "Fashion Influencer Vlogs",
             description: "Showcasing personal style, trends, and everyday fashion inspiration.",
-            image: "../../public/assets/thumb3.png",
+            image: "../../public/thumb3.png",
             align: "object-center",
         },
     ];

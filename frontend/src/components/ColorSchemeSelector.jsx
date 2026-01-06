@@ -1,5 +1,5 @@
 import React from 'react'
-import { colorSchemes } from '../../public/assets/assets'
+import { colorSchemes } from '../assets/assets.js'
 
 const ColorSchemeSelector = ({value, onChange}) => {
   return (
