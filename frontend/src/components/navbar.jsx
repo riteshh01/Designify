@@ -42,7 +42,7 @@ export default function Navbar() {
                     <Link to="/" className="hover:text-slate-300 transition" >Home</Link>
                     <Link to="/generate" className="hover:text-slate-300 transition" >Generate</Link>
                     <Link to="/my-generating" className="hover:text-slate-300 transition" >My Generations</Link>
-                    <Link to="#" className="hover:text-slate-300 transition" >Contact Us</Link>                    
+                    <Link to="/contactus" className="hover:text-slate-300 transition" >Contact Us</Link>                    
                 </div>
 
                 <div className="hidden lg:block space-x-3">
